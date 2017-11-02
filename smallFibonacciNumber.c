@@ -16,7 +16,7 @@ int main()
     printf("%d\n", n - 1);
   else
     {
-      for (c=3; c <= n; c++) //calculate nth fibnumber
+      for (c=2; c <= n; c++) //calculate nth fibnumber
       {
 	next = first + second;
 	first = second;
